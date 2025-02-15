@@ -1,0 +1,27 @@
+/* styles/cards.css */
+.card {
+    background: #000;
+    border-radius: 8px;
+    box-shadow: gray 0px 2px 8px 0px;
+    padding: 20px;
+    width: 30%;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease;
+  }
+  
+  .card:hover {
+    box-shadow: #1085dc 0px 4px 16px 0px;
+  }
+  
+  @media (max-width: 1024px) {
+    .card {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
